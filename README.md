@@ -22,4 +22,6 @@ It provides an intuitive interface for event lovers, participants, and organizer
 - Try a live demo by hosting using GitHub Pages or any static host.
 
 ## 🧑‍💻 About the Author
-Built and maintained by Soumya (https://github.com/whiteknight40). Always open to contributions, feedback and creative ideas.
+
+Built and maintained by **Soumya** ([whiteknight40](https://github.com/whiteknight40)).  
+Always open to contributions, feedback, and creative ideas 🚀.
