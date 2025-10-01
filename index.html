@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adrenaline Rush - Festival 2025</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Loading Screen -->
+    <div class="loading" id="loading">
+      <div class="loader"></div>
+    </div>
+
+    <!-- Custom Cursor -->
+    <div class="custom-cursor" id="cursor"></div>
+
+    <!-- Particle Background -->
+    <div class="particles" id="particles"></div>
+
+    <!-- Header -->
+    <header class="header">
+      <nav class="nav">
+        <div
+          class="logo"
+          data-text="ADRENALINE RUSH"
+          onclick="loadPage('home.html')"
+        >
+          ADRENALINE RUSH
+        </div>
+        <ul class="nav-links">
+          <li>
+            <a href="#" onclick="loadPage('home.html')" class="nav-link active"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a href="#" onclick="loadPage('events.html')" class="nav-link"
+              >Events</a
+            >
+          </li>
+          <li>
+            <a href="#" onclick="loadPage('team.html')" class="nav-link"
+              >Team</a
+            >
+          </li>
+          <li>
+            <a href="#" onclick="loadPage('login.html')" class="nav-link"
+              >Login</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="content"></main>
+    <!-- Footer -->
+    <footer class="footer">
+      <p class="copyright">
+        Crafted with <span class="heart">♥</span> by
+        <span class="creator">@Soumya</span>
+      </p>
+    </footer>
+
+    <script src="script1.js"></script>
+  </body>
+</html>
